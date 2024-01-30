@@ -1,0 +1,11 @@
+#contenido{
+    width: 100%;
+}
+*{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 0px;
+    padding: 25px;
+    background: white;
+    float: right;
+}

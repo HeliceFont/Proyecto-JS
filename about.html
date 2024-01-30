@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con JavaScript</title>
+
+    <!--Estilos de código CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link id="theme" rel="stylesheet" href="../Proyecto-JS/css/blue.css">
+    <link rel="stylesheet" type="text/css" href="../Proyecto-JS/css/about.css">
+    <!-- <link rel="stylesheet" href="../Proyecto-JS/css/pink.css">
+    <link rel="stylesheet" href="../Proyecto-JS/css/yellow.css"> -->
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.min.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.theme.css">
+    <link rel="stylesheet" href="js/jquery-ui-1.13.2/jquery-ui.structure.css">
+    <script type="text/javascript" src="../Proyecto-JS/js/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+        
+    <!--mis Scripts-->
+    <script type="text/javaScript" src="../Proyecto-JS/js/main.js"></script>
+
+</head>
+<body>
+    <div id="selector-theme">
+        <div id="to-green"></div>
+        <div id="to-blue"></div>
+        <div id="to-red"></div>
+    </div>
+    <section id="global">
+        <!--Cabecera-->
+        <header>
+            <div id="logo">
+                <h1>Proyecto JS</h1>
+            </div>
+
+            <div class="clearfix"></div><!--limpiar flotados-->
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="../Proyecto-JS/index.html">Inicio</a></li>
+                    <li><a href="../Proyecto-JS/reloj.html">Reloj</a></li>
+                    <li><a href="../Proyecto-JS/about.html">Sobre mi</a></li>
+                    <li><a href="../Proyecto-JS/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Contenido-->
+        <div style="display: block">
+
+            <section id="contenido">
+            <div id="box">
+                <div class="clearfix"></div>
+                <!--Aquí se Carga el acordeón-->
+                <h2>Sobre nosotros</h2>
+                <div id="acordeon">
+                    <h3>¿Quienes somos?</h3>
+                    <div>
+                        <p>Sed interdum massa at ornare auctor. Duis sit amet auctor odio. Vivamus nulla mi, vestibulum vel rutrum in, condimentum a nunc. Vivamus quis nisl facilisis, mattis nisi vitae, porta libero. Pellentesque tristique placerat dignissim.</p>
+                    </div>
+
+                    
+                    <h3>Nuestros servicios</h3>
+                    <div>
+                        <p>Sed interdum massa at ornare auctor. Duis sit amet auctor odio. Vivamus nulla mi, vestibulum vel rutrum in, condimentum a nunc. Vivamus quis nisl facilisis, mattis nisi vitae, porta libero. Pellentesque tristique placerat dignissim.</p>
+                    </div>
+
+                    
+                    <h3>¿Donde nos ubicamos?</h3>
+                    <div>
+                        <p>Sed interdum massa at ornare auctor. Duis sit amet auctor odio. Vivamus nulla mi, vestibulum vel rutrum in, condimentum a nunc. Vivamus quis nisl facilisis, mattis nisi vitae, porta libero. Pellentesque tristique placerat dignissim.</p>
+                    </div>
+            </div>
+            <aside id="sidebar">
+
+                <div id="about">
+                    <h4><span>¿Quién soy?</span></h4>
+                    <img src="../Proyecto-JS/img/caracol.jpg"/>
+                    <p>
+                        Los caracoles se desplazan con lentitud alternando contracciones y elongaciones de su cuerpo.
+                    </p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form action="">
+                        <label for="name">
+                            Nombre:
+                        </label>
+                        <input type="text" name="name" id="form_name">
+                        <br>
+                        <label for="email">
+                            Correo:
+                        </label>
+                        <br>
+                        <input type="text" name="email">
+                        
+                        <label for="password">
+                            Contraseña:
+                        </label>
+                        <br>
+                        <input type="password" name="password">
+                        <br>
+                        <input type="submit" value="Entrar">
+
+                    </form>
+                </div>
+
+            </aside>
+            <div class="clearfix"></div><!--limpiar flotados-->
+        </section></div>
+        
+
+    </section>
+    <footer>
+        Master de JavaScript &copy;
+        <a href="#" class="subir">Ir arriba</a>
+    </footer>
+</body>
+</html>
